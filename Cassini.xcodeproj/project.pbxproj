@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		74E08B3020A9DDA100EE23FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E08B2F20A9DDA100EE23FE /* AppDelegate.swift */; };
-		74E08B3220A9DDA100EE23FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E08B3120A9DDA100EE23FE /* ViewController.swift */; };
 		74E08B3520A9DDA100EE23FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E08B3320A9DDA100EE23FE /* Main.storyboard */; };
 		74E08B3720A9DDA400EE23FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E08B3620A9DDA400EE23FE /* Assets.xcassets */; };
 		74E08B3A20A9DDA400EE23FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E08B3820A9DDA400EE23FE /* LaunchScreen.storyboard */; };
+		74E08B4320A9DE2900EE23FE /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E08B4220A9DE2900EE23FE /* ImageViewController.swift */; };
+		74E08B4520A9E24400EE23FE /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E08B4420A9E24400EE23FE /* DemoURLs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74E08B2C20A9DDA100EE23FE /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E08B2F20A9DDA100EE23FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74E08B3120A9DDA100EE23FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74E08B3420A9DDA100EE23FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74E08B3620A9DDA400EE23FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E08B3920A9DDA400EE23FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74E08B3B20A9DDA400EE23FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E08B4220A9DE2900EE23FE /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		74E08B4420A9E24400EE23FE /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		74E08B2E20A9DDA100EE23FE /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				74E08B2F20A9DDA100EE23FE /* AppDelegate.swift */,
-				74E08B3120A9DDA100EE23FE /* ViewController.swift */,
+				74E08B4420A9E24400EE23FE /* DemoURLs.swift */,
+				74E08B4220A9DE2900EE23FE /* ImageViewController.swift */,
+				74E08B4120A9DDCE00EE23FE /* Supporting Files */,
 				74E08B3320A9DDA100EE23FE /* Main.storyboard */,
-				74E08B3620A9DDA400EE23FE /* Assets.xcassets */,
-				74E08B3820A9DDA400EE23FE /* LaunchScreen.storyboard */,
 				74E08B3B20A9DDA400EE23FE /* Info.plist */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		74E08B4120A9DDCE00EE23FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E08B2F20A9DDA100EE23FE /* AppDelegate.swift */,
+				74E08B3620A9DDA400EE23FE /* Assets.xcassets */,
+				74E08B3820A9DDA400EE23FE /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E08B3220A9DDA100EE23FE /* ViewController.swift in Sources */,
+				74E08B4320A9DE2900EE23FE /* ImageViewController.swift in Sources */,
 				74E08B3020A9DDA100EE23FE /* AppDelegate.swift in Sources */,
+				74E08B4520A9E24400EE23FE /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
